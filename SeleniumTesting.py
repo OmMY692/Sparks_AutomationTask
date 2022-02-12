@@ -7,7 +7,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver import ActionChains
 
-driver = webdriver.Chrome(executable_path="C:/Users/hp/Downloads/chromedriver_win32/chromedriver.exe")
+driver = webdriver.Chrome(executable_path="C:/Users/ADMIN/Downloads/chromedriver_win32/chromedriver.exe")
 
 driver.get("https://www.thesparksfoundationsingapore.org/")
 print("\n---------------- Testing Started ---------------------\n")
@@ -89,10 +89,10 @@ role = driver.find_element(By.XPATH, '/html/body/div[2]/div/div[2]/div[2]/div/fo
 driver.execute_script("arguments[0].scrollIntoView();", name)
 time.sleep(1)
 
-name.send_keys('Srushti Bhasme')
+name.send_keys('Omkar Shete')
 time.sleep(2)
 
-email.send_keys('Sru@19')
+email.send_keys('Ommy@69')
 time.sleep(2)
 
 choose = Select(role)
